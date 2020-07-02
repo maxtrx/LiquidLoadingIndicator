@@ -21,11 +21,11 @@ Using Swift Package Manager, add `https://github.com/Reiszecke/LiquidLoadingIndi
 
 ```swift
 
-private var indicator: EMTLoadingIndicator?
+private var indicator: LiquidLoadingIndicator?
 
 override func willActivate() {
 
-    indicator = EMTLoadingIndicator(interfaceController: self, interfaceImage: image!,
+    indicator = LiquidLoadingIndicator(interfaceController: self, interfaceImage: image!,
         width: 40, height: 40, style: .line)
 ```
 
@@ -89,7 +89,7 @@ This is everything that this repo added. If you only need stuff explained below 
 ![Image](/webpage/stockdot.jpeg)
 
 ```swift
-indicator = EMTLoadingIndicator(interfaceController: self, interfaceImage: image!,
+indicator = LiquidLoadingIndicator(interfaceController: self, interfaceImage: image!,
     width: 40, height: 40, style: .dot)
 
 // prepareImageForWait will be called automatically in the showWait method at the first time.
