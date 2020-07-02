@@ -92,7 +92,7 @@ final public class LiquidLoadingIndicator: NSObject {
     
     private func prepareImagesForWaitStyleDot() {
         if LiquidLoadingIndicator.dotWaitImage == nil {
-            let bundle = Bundle(for: EMTLoadingIndicator.self)
+            let bundle = Bundle(for: LiquidLoadingIndicator.self)
             let cursors: [UIImage] = (0...29).map {
                 let index = $0
                 return UIImage(contentsOfFile: (bundle.path(forResource: "waitIndicatorGraphic-\(index)@2x", ofType: "png"))!)!
@@ -256,7 +256,7 @@ final public class LiquidLoadingIndicator: NSObject {
             path.lineWidth = LiquidLoadingIndicator.reloadLineWidth
             path.lineCapStyle = CGLineCap.square
             path.lineJoinStyle = CGLineJoin.miter
-            EMTLoadingIndicator.reloadColor.setStroke()
+            LiquidLoadingIndicator.reloadColor.setStroke()
             path.stroke()
             
             context.setFillColor(LiquidLoadingIndicator.reloadColor.cgColor)
@@ -372,7 +372,7 @@ final public class LiquidLoadingIndicator: NSObject {
         }
         isFirstProgressUpdate = false
         currentProgressFrame = toFrame
-        image?.setImage(EMTLoadingIndicator.progressImages[currentProgressFrame])
+        image?.setImage(LiquidLoadingIndicator.progressImages[currentProgressFrame])
     }
     
     public func hide() {
