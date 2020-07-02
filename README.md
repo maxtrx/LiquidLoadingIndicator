@@ -56,17 +56,23 @@ indicator.setLineColor(UIColor(red: 1.0, green: 1.0, blue:1.0, alpha: 0.8))
 indicator.setLineGap(0.6)
 ``` 
 
+<img src="/animation-examples/loading-indicator.gif" height="250"/>
+
 Addionally, if you want the circular line's head and tail play catch you can look try
 
 ```
 indicator.enableLavaLamp(moreBubbly: false)
 ```
 
+<img src="/animation-examples/loading-indicator-less-bubbly.gif" height="250"/>
+
 or 
 
 ```
 indicator.enableLavaLamp(moreBubbly: true)
 ```
+
+<img src="/animation-examples/loading-indicator-more-bubbly.gif" height="250"/>
 
 It's also possible to set the viscosity (I don't know what to call this, I'm a car guy) by playing around with values such as
 
