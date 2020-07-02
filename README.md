@@ -1,10 +1,5 @@
 # LiquidLoadingIndicator
-Loading indicator for watchOS. Project is based on EMTLoadingIndicator
-
-
-Usage: Only Swift Package Manager is supported. Add `https://github.com/Reiszecke/LiquidLoadingIndicator`, and add it to your WatchKit Extension. 
-
-
+Loading indicator for watchOS. Project is based on EMTLoadingIndicator but I needed some customizations, SPM compatability and implemented some fancy that would be too much to expect to get accepted for a PR.
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat
             )](http://mit-license.org) [![Platform](https://img.shields.io/badge/platform-watchOS-lightgrey.svg?style=flat
