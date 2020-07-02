@@ -42,7 +42,7 @@ This is where the project differs from the original. The original indicator coul
 ![Image](http://www.emotionale.jp/images/git/loadingindicator/img1.jpg)
 
 ```swift
-indicator = EMTLoadingIndicator(interfaceController: self, interfaceImage: image!,
+indicator = LiquidLoadingIndicator(interfaceController: self, interfaceImage: image!,
     width: 40, height: 40, style: .line)
 indicator?.showWait()
 indicator?.hide()
@@ -135,15 +135,15 @@ If you want to change styles, you need to set properties before using prepare/sh
 
 ```swift
 // defaults
-EMTLoadingIndicator.circleLineColor = UIColor(white: 1, alpha: 0.8)
-EMTLoadingIndicator.circleLineWidth = 1
-EMTLoadingIndicator.progressLineColorOuter = UIColor(white: 1, alpha: 0.28)
-EMTLoadingIndicator.progressLineColorInner = UIColor(white: 1, alpha: 0.70)
-EMTLoadingIndicator.progressLineWidthOuter = 1
-EMTLoadingIndicator.progressLineWidthInner = 2
-EMTLoadingIndicator.reloadColor = UIColor.white
-EMTLoadingIndicator.reloadLineWidth = 4
-EMTLoadingIndicator.reloadArrowRatio = 3
+LiquidLoadingIndicator.circleLineColor = UIColor(white: 1, alpha: 0.8)
+LiquidLoadingIndicator.circleLineWidth = 1
+LiquidLoadingIndicator.progressLineColorOuter = UIColor(white: 1, alpha: 0.28)
+LiquidLoadingIndicator.progressLineColorInner = UIColor(white: 1, alpha: 0.70)
+LiquidLoadingIndicator.progressLineWidthOuter = 1
+LiquidLoadingIndicator.progressLineWidthInner = 2
+LiquidLoadingIndicator.reloadColor = UIColor.white
+LiquidLoadingIndicator.reloadLineWidth = 4
+LiquidLoadingIndicator.reloadArrowRatio = 3
 ```
 
 ### Clear Images
@@ -161,4 +161,4 @@ indicator?.clearProgressImage()
 - watchOS 4.0+
 
 ## License
-EMTLoadingIndicator is available under the MIT license. See the LICENSE file for more info.
+LiquidLoadingIndicator is available under the MIT license. See the LICENSE file for more info.
