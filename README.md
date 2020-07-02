@@ -82,7 +82,7 @@ You may not want this at all so you can do
 indicator.disableLavaLamp()
 ```
 
-This is everything that this repo added. If you only need stuff explained below this sentence, feel free to check out the original at https://github.com/hirokimu/EMTLoadingIndicator
+This is everything that this repo added. If you only need stuff that is mentioned below this sentence, feel free to check out the original at https://github.com/hirokimu/EMTLoadingIndicator
 
 ### Dot Indicator
 
