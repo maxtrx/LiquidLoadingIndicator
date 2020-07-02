@@ -35,6 +35,51 @@ override func willActivate() {
 width and height are the size of WKInterfaceImage passed to 2nd argument. Indicator images will be created with this size.
 Style argument decides the visual of wait (loop) indicator - Dot or Line.
 
+### Line (Circular) Indicator
+
+This is where the project differs from the original. The original indicator could just do this:
+
+![Image](http://www.emotionale.jp/images/git/loadingindicator/img1.jpg)
+
+```swift
+indicator = EMTLoadingIndicator(interfaceController: self, interfaceImage: image!,
+    width: 40, height: 40, style: .line)
+indicator?.showWait()
+indicator?.hide()
+```
+
+With this repo, you can adjust parameters like line width on the object itself.
+
+```     
+indicator.setLineWidth(5.3)
+indicator.setLineColor(UIColor(red: 1.0, green: 1.0, blue:1.0, alpha: 0.8))
+indicator.setLineGap(0.6)
+``` 
+
+Addionally, if you want the circular line's head and tail play catch you can look try
+
+```
+indicator.enableLavaLamp(moreBubbly: false)
+```
+
+or 
+
+```
+indicator.enableLavaLamp(moreBubbly: true)
+```
+
+It's also possible to set the viscosity (I don't know what to call this, I'm a car guy) by playing around with values such as
+
+```
+indicator.setKinetic(energy: 1.1)
+```
+You may not want this at all so you can do 
+
+```
+indicator.disableLavaLamp()
+```
+
+This is everything that this repo added. If you only need stuff explained below this sentence, feel free to check out the original at https://github.com/hirokimu/EMTLoadingIndicator
 
 ### Dot Indicator
 
@@ -57,17 +102,6 @@ indicator?.hide()
 *Images of Dot indicator are static resource files size of 80px x 80px.
  These PNG files are created with Flash CC (waitIndicatorGraphic.fla).
 
-
-### Line (Circular) Indicator
-
-![Image](http://www.emotionale.jp/images/git/loadingindicator/img1.jpg)
-
-```swift
-indicator = EMTLoadingIndicator(interfaceController: self, interfaceImage: image!,
-    width: 40, height: 40, style: .line)
-indicator?.showWait()
-indicator?.hide()
-```
 
 ### Progress Indicator
 
@@ -124,7 +158,7 @@ indicator?.clearProgressImage()
 ```
 
 ## Requirements
-- watchOS 3.0+
+- watchOS 4.0+
 
 ## License
 EMTLoadingIndicator is available under the MIT license. See the LICENSE file for more info.
