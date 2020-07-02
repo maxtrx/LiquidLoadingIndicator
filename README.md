@@ -83,7 +83,7 @@ This is everything that this repo added. If you only need stuff explained below 
 
 ### Dot Indicator
 
-![Image](http://www.emotionale.jp/images/git/loadingindicator/img0.jpg)
+![Image](/webpage/stockdot.jpeg)
 
 ```swift
 indicator = EMTLoadingIndicator(interfaceController: self, interfaceImage: image!,
