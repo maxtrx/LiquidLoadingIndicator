@@ -5,6 +5,7 @@ import PackageDescription
 
 let package = Package(
     name: "LiquidLoadingIndicator", 
+    exclude: ["webpage"]
     platforms: [
         .watchOS(SupportedPlatform.WatchOSVersion.v4),
     ],
