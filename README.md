@@ -36,7 +36,7 @@ Style argument decides the visual of wait (loop) indicator - Dot or Line.
 
 This is where the project differs from the original. The original indicator could just do this:
 
-![Image](/webpage/stockline.jpeg)
+![Image](../assets/webpage/stockline.jpeg)
 
 ```swift
 indicator = LiquidLoadingIndicator(interfaceController: self, interfaceImage: image!,
