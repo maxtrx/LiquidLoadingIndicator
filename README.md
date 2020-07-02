@@ -53,7 +53,7 @@ indicator.setLineColor(UIColor(red: 1.0, green: 1.0, blue:1.0, alpha: 0.8))
 indicator.setLineLength(0.6)
 ``` 
 
-<img src="/webpage/loading-indicator.gif" height="250"/>
+<img src="../assets/webpage/loading-indicator.gif" height="250"/>
 
 Addionally, if you want the circular line's head and tail play catch you can look try
 
@@ -61,7 +61,7 @@ Addionally, if you want the circular line's head and tail play catch you can loo
 indicator.enableLavaLamp(moreBubbly: false)
 ```
 
-<img src="/webpage/loading-indicator-less-bubbly.gif" height="250"/>
+<img src="../assets/webpage/loading-indicator-less-bubbly.gif" height="250"/>
 
 or 
 
@@ -69,7 +69,7 @@ or
 indicator.enableLavaLamp(moreBubbly: true)
 ```
 
-<img src="/webpage/loading-indicator-more-bubbly.gif" height="250"/>
+<img src="../assets/webpage/loading-indicator-more-bubbly.gif" height="250"/>
 
 It's also possible to set the viscosity (I don't know what to call this, I'm a car guy) by playing around with values such as
 
@@ -86,7 +86,7 @@ This is everything that this repo added. If you only need stuff that is mentione
 
 ### Dot Indicator
 
-![Image](/webpage/stockdot.jpeg)
+![Image](../assets/webpage/stockdot.jpeg)
 
 ```swift
 indicator = LiquidLoadingIndicator(interfaceController: self, interfaceImage: image!,
@@ -108,7 +108,7 @@ indicator?.hide()
 
 ### Progress Indicator
 
-![Image](/webpage/stockprogress.jpeg)
+![Image](../assets/webpage/stockprogress.jpeg)
 
 ```swift
 indicator?.prepareImagesForProgress()
@@ -124,7 +124,7 @@ indicator?.hide()
 
 ### Reload Icon
 
-![Image](/webpage/stockreload.jpeg)
+![Image](../assets/webpage/stockreload.jpeg)
 
 
 You can display static reload icon (in some loading error situations).
