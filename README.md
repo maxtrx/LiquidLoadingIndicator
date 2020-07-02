@@ -39,7 +39,7 @@ Style argument decides the visual of wait (loop) indicator - Dot or Line.
 
 This is where the project differs from the original. The original indicator could just do this:
 
-![Image](http://www.emotionale.jp/images/git/loadingindicator/img1.jpg)
+![Image](/webpage/stockline.jpeg)
 
 ```swift
 indicator = LiquidLoadingIndicator(interfaceController: self, interfaceImage: image!,
@@ -105,7 +105,7 @@ indicator?.hide()
 
 ### Progress Indicator
 
-![Image](http://www.emotionale.jp/images/git/loadingindicator/img2.jpg)
+![Image](/webpage/stockprogress.jpeg)
 
 ```swift
 indicator?.prepareImagesForProgress()
@@ -121,7 +121,8 @@ indicator?.hide()
 
 ### Reload Icon
 
-![Image](http://www.emotionale.jp/images/git/loadingindicator/img3.jpg)
+![Image](/webpage/stockreload.jpeg)
+
 
 You can display static reload icon (in some loading error situations).
 
