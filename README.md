@@ -6,10 +6,8 @@ Usage: Only Swift Package Manager is supported. Add `https://github.com/Reiszeck
 
 
 
-TEMP
+# TEMPORARY DESCRIPTION. WILL UPDATE SOON
 
-# EMTLoadingIndicator
-Displays loading indicator on Apple watchOS 4+
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg?style=flat
             )](http://mit-license.org) [![Platform](https://img.shields.io/badge/platform-watchOS-lightgrey.svg?style=flat
@@ -17,23 +15,8 @@ Displays loading indicator on Apple watchOS 4+
              )](https://developer.apple.com/swift) [![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat)](https://github.com/apple/swift-package-manager)
 
 ## Installation
-Simply add class and resource files to your project, or use CocoaPods or Carthage.
+Using Swift Package Manager, add `https://github.com/Reiszecke/LiquidLoadingIndicator` as a dependency, and add it to your WatchKit Extension.
 
-### Podfile
-
-```ruby
-use_frameworks!
-target :'SomeWatchKitApp Extension', :exclusive => true do
-    platform :watchos, '4.0'
-    pod 'EMTLoadingIndicator', '~> 4.0.0'
-end
-```
-
-### Carthage
-
-```
-carthage update --platform watchOS
-```
 
 ## Usage
 
