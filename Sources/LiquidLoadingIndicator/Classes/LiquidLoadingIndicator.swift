@@ -20,7 +20,7 @@ final public class LiquidLoadingIndicator: NSObject {
     private static var progressImages = [UIImage]()
     private static var reloadImage: UIImage?
 
-    private var circleLineGap: CGFloat = 0.9
+    private var circleLineLength: CGFloat = 0.9
     private var circleLineWidth: CGFloat = 1
     private var circleLineColor = UIColor(white: 1, alpha: 0.8)
     
@@ -63,8 +63,8 @@ final public class LiquidLoadingIndicator: NSObject {
         circleLineColor = color
     }
     
-    public func setLineGap(_ gapSize: CGFloat){ // 1.0: 100%, 0.2: 20%.
-        circleLineGap = gapSize
+    public func setLineLength(_ size: CGFloat){ // 1.0: 100%, 0.2: 20%.
+        circleLineLength = size
     }
     
     public func enableLavaLamp(moreBubbly: Bool) {
@@ -161,7 +161,7 @@ final public class LiquidLoadingIndicator: NSObject {
                 //let degree = CGFloat(-90 + 6 * $0)
                 let degree = CGFloat(0 + 6 * $0)
                 let startDegree = (CGFloat.pi / 180 * degree)                   + lengthToUse
-                let endDegree = startDegree + CGFloat.pi * 2 * circleLineGap    - lengthToUse*kineticToUse
+                let endDegree = startDegree + CGFloat.pi * 2 * circleLineLength - lengthToUse*kineticToUse
                 
                 //  print(degree)
                 //  print(startDegree)

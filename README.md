@@ -50,7 +50,7 @@ With this repo, you can adjust parameters like line width on the object itself.
 ```     
 indicator.setLineWidth(5.3)
 indicator.setLineColor(UIColor(red: 1.0, green: 1.0, blue:1.0, alpha: 0.8))
-indicator.setLineGap(0.6)
+indicator.setLineLength(0.6)
 ``` 
 
 <img src="/webpage/loading-indicator.gif" height="250"/>
