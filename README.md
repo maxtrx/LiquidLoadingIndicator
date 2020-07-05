@@ -157,7 +157,7 @@ indicator?.clearProgressImage()
 ```
 
 ## Requirements
-- watchOS 4.0+
+- watchOS 3.0+
 
 ## License
 LiquidLoadingIndicator is available under the MIT license. See the LICENSE file for more info.

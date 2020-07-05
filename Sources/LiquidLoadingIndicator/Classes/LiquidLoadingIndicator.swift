@@ -1,8 +1,6 @@
 //
 //  LiquidLoadingIndicator.swift
-//
-//  Created by Hironobu Kimura on 2016/08/04.
-//  Copyright (C) 2016 emotionale. All rights reserved.
+//  https://github.com/Reiszecke/LiquidLoadingIndicator
 //
 
 import UIKit
@@ -153,10 +151,6 @@ final public class LiquidLoadingIndicator: NSObject {
                         lengthToUse = driftingLength / 7
                     }
                 }
-                
-                print(driftingLength)
-                
-                print(">>")
                 
                 //let degree = CGFloat(-90 + 6 * $0)
                 let degree = CGFloat(0 + 6 * $0)

@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "LiquidLoadingIndicator",
     platforms: [
-        .watchOS(SupportedPlatform.WatchOSVersion.v4),
+        .watchOS(SupportedPlatform.WatchOSVersion.v3),
     ],
     
     
