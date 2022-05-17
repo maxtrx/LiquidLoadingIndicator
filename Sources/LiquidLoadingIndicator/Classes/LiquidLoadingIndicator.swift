@@ -4,7 +4,7 @@
 //
 
 import UIKit
-import WatchKit
+import WatchConnectivity
 
 @objc
 final public class LiquidLoadingIndicator: NSObject {

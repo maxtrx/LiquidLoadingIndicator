@@ -5,7 +5,7 @@
 //  Copyright (C) 2016 emotionale. All rights reserved.
 //
 
-import Foundation
+import WatchConnectivity
 
 typealias EMTTimerCallback = (Timer) -> Void
 

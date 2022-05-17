@@ -6,7 +6,7 @@
 //  Copyright © 2018 Meeco Labs. All rights reserved.
 //
 
-#import <WatchKit/WatchKit.h>
+#import <WatchConnectivity/WatchConnectivity.h>
 
 //! Project version number for EMTLoadingIndicator.
 FOUNDATION_EXPORT double EMTLoadingIndicatorVersionNumber;
