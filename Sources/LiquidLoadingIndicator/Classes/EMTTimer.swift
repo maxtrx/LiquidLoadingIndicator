@@ -5,6 +5,8 @@
 //  Copyright (C) 2016 emotionale. All rights reserved.
 //
 
+import Foundation
+
 typealias EMTTimerCallback = (Timer) -> Void
 
 public final class EMTTimer: NSObject {
